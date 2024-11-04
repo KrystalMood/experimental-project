@@ -65,6 +65,11 @@
             <p class="mt-6 text-white/80 text-lg md:text-xl max-w-md">Discover our collection of minimalist and elegant
                 designs</p>
         </div>
+        <button
+            class="absolute bottom-12 right-12 text-white/80 hover:text-white hover:border-white transition-all duration-300 border-4 border-white/80 rounded-full p-2 hover:bg-white/10 cursor-pointer"
+            onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})">
+            <i data-lucide="chevron-down" class="w-8 h-8 animate-bounce"></i>
+        </button>
     </div>
     <!-- End Hero Image -->
 
